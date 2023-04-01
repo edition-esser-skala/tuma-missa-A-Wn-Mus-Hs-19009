@@ -6,7 +6,11 @@
 \include "ees_articulate.ly"
 
 
+preventBeam = #(make-music 'BeamForbidEvent)
+
+
 tempoKyrie = \tempoMarkup "Adagio"
+  tempoKyrieB = \tempoMarkup "Allegretto"
 
 
 \include "notes/cnto.ly"
