@@ -46,3 +46,89 @@ KyrieCornetto = {
     g r r2\fermata \bar "|." %50 finis
   }
 }
+
+GloriaCornetto = {
+  \relative c' {
+    \clef soprano
+    \key g \major \time 4/4 \tempoGloria
+    r4 d'8\fE h g2~
+    g4 fis g r
+    g r g r
+    g4. g8 fis8. fis16 fis4
+    a8 h16 c d8 c h a16 g a4 %5
+    g r r2
+    R1*35 %41
+    r4 c8\fE h16 a g8 a a g
+    g g r4 r2
+    r c~
+    c8 h16 c d e c d e2~ %45
+    e8 d16 e f e d c h8 a16 g c4~ \noBreak
+    c8 h16 a h4 c r\fermata \bar "||"
+    \key g \minor \time 3/2 \tempoQuiTollis \newSpacingSection
+      R1.*6 %53
+    r2 r b\fE
+    b b d %55
+    d1 c2
+    d d r
+    r d4 g, g2
+    \once \tieDashed es'1.~
+    es2 d c %60
+    b1 d2~
+    d c4 d es2
+    a, a f
+    f d1
+    e e2 %65
+    e1 d2
+    b' a1
+    a2 r r
+    R1.*2 %70
+    r2 r d,
+    d'1 d2
+    a a a
+    b b r
+    g2. g4 g2 %75
+    g1 c2
+    c1 c2
+    c1 c2
+    c h1
+    c c2 %80
+    c b! d
+    d2. d4 c2
+    d1 d2
+    d1 d2
+    \once \tieDashed d1.~ %85
+    d
+    c2 e e
+    \once \tieDashed e1.~
+    e
+    d2 r r %90
+    R1.*3
+    r2 h4 e, e2
+    c'1.~ %95
+    c2 h a
+    g1.
+    fis2 fis1
+    e2 r r
+    R1.*2 \noBreak %101
+    R1.\fermata \bar "||"
+    \key g \major \time 4/4 \tempoQuoniam \newSpacingSection
+      R1*4
+    r2 r8 d'\fE d d
+    d8. d16 d8 d d d d d
+    d d d cis d4 r8 d
+    h16 c d e a, h c d g,4. c8 %110
+    fis,16 g a h e, fis g a d,4 d'8 c16 h
+    a8 d4 cis h16 ais h4
+    r8 a4 g fis16 e fis4
+    g8 h c a h4. g8
+    a fis g e fis4 g~ %115
+    g8 fis e4 d r
+    R1*2
+    r4 r8 d' h16 c d e a, h c d
+    g,4 r8 g e16 f g a d, e f g %120
+    c,8 c' h4 a16 h c d fis, g a h
+    a4. g8 a4 h
+    a2 g4 r
+    e'2 d\fermata \bar "|." %124 finis
+  }
+}

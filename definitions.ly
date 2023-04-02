@@ -11,6 +11,9 @@ preventBeam = #(make-music 'BeamForbidEvent)
 
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegretto"
+tempoGloria = \tempoMarkup "Andante"
+  tempoQuiTollis = \tempoMarkup "Largo"
+  tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/cnto.ly"

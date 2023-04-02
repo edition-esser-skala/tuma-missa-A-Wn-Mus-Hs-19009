@@ -102,3 +102,185 @@ KyrieTenoreLyrics = \lyricmode {
   e -- lei --
   son. %50 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoGloria
+    r2 r4 \mvTr h8\fE^\tutti h
+    a4. a8 h4 r
+    h r h r
+    a4. a8 a8. a16 a4
+    r a8 a h e e([ d)] %5
+    d4 r r2
+    r8 \mvTr h\pE^\solo e4.( dis16[ cis] dis8.) dis16
+    e4 r r2
+    r r4 c8 c
+    h4. c16 d c4 r %10
+    r e8 e d([ c16 h] a8) c
+    h h e16([^\critnote d)] c([ h)] c2~
+    c8[ h16 ais] h4. e4 dis8
+    e4 r r2
+    r e4~ e16[ d! c h] %15
+    c8. h16 h4 a8([ h16 c)] h([ a)] g([ fis)]
+    g([ fis)] e8 e' d! c h a4~
+    a16[ d] c h gis4 a r
+    R1*23 %41
+    r4 \mvTr c8\fE^\tutti c16 d e8 c d h
+    c c c4. h16 c d[ e c d]
+    e2~ e8[ d16 e] f8[ e]
+    d2~ d8[ c16 h] c4~ %45
+    c8[ h16 a] d2 e4 \noBreak
+    d2 e4 r\fermata \bar "||"
+    \key g \minor \time 3/2 \tempoQuiTollis \newSpacingSection
+      R1.*5 %52
+    r2 r \mvTr d,\fE^\tutti
+    d'1.
+    d1 b2 %55
+    g1 g2
+    a a r
+    R1.*3 %60
+    r2 d4( g,) g2
+    es'1.~
+    es2 d cis
+    d1.~
+    d2 cis h %65
+    cis1 d2~
+    d d( cis)
+    d r r
+    R1.*5 %73
+    d2. d4 d2
+    es2. es4 es2 %75
+    es1 es2
+    f1 f2
+    es1 es2
+    d1.
+    c1 es2 %80
+    d d d
+    g,2. g4 g2
+    a1 a2
+    b1 b2
+    h1.~ %85
+    h
+    c2 c c
+    cis1.~
+    cis
+    d2 r r %90
+    r h4( e,) e2
+    c'!1.~
+    c2 h a
+    g1.
+    a1 g2 %95
+    fis1.
+    g
+    h
+    h2 r r
+    R1.*2 \noBreak %101
+    R1.\fermata \bar "||"
+    \key g \major \time 4/4 \tempoQuoniam \newSpacingSection
+      R1*4 %106
+    r2 r8 \mvTr h\fE^\tutti a a
+    h8. h16 a8 a h h16 h a8 a
+    h h g4 a r
+    R1*3 %112
+    r2 r4 r8 d
+    h16[ c! d e] a,[ h c d] g,4. c8
+    fis,16[ g a h] e,[ fis g a] d,8 d'16([ c] d8) h %155
+    e d d([ cis)] d d4 cis8~
+    cis[ h16 ais] h4 r8 a4 g8~
+    g[ fis16 e] fis8[ g16 a] h8.[ a16] g4
+    g( fis) g r8 d'~
+    d c4 h8 c4 r8 d %120
+    e[ fis] g[ fis16 e] fis8 d r4
+    a16[ h c d] fis,[ g a h] a8[ h16 c] d4
+    d2 d4 r
+    c2 h\fermata \bar "|." %124 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Et in
+  ter -- ra pax,
+  pax, pax,
+  pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- %5
+  tis.
+  Lau -- da -- mus
+  te,
+  be -- ne --
+  di -- ci -- mus te, %10
+  ad -- o -- ra -- mus
+  te, glo -- ri -- fi -- ca --
+  _ _ mus
+  te.
+  Gra -- %15
+  _ ti -- as a -- gi -- mus
+  ti -- bi pro -- pter ma -- gnam glo --
+  ri -- am tu -- am.
+
+  Do -- mi -- ne De -- us, A -- gnus %42
+  De -- i, Fi -- li -- us Pa --
+  _ _
+  _ _ %45
+  _ tris,
+  Pa -- tris.
+
+  Qui %53
+  tol --
+  lis pec -- %55
+  ca -- ta
+  mun -- di:
+
+  Mi -- se -- %61
+  re --
+  _ _
+  _
+  _ _ %65
+  _ re __
+  no --
+  bis.
+
+  Su -- sci -- pe, %74
+  su -- sci -- pe %75
+  de -- pre --
+  ca -- ti --
+  o -- nem
+  no --
+  stram. Qui %80
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris:
+  Mi -- se --
+  re -- %85
+
+  re, mi -- se --
+  re --
+
+  re, %90
+  mi -- se --
+  re --
+  _ _
+  _
+  _ _ %95
+  _
+  re
+  no --
+  bis.
+
+  Cum San -- cto %107
+  Spi -- ri -- tu in glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+
+  a -- %113
+  _ _ men, a --
+  _ _ men, a -- men, %115
+  a -- men, a -- men, a -- _
+  men, a -- _
+  _ _ men,
+  a -- men, a --
+  _ _ men, a -- %120
+  _ _ _ men,
+  a -- _ _ men,
+  a -- men,
+  a -- men. %124 finis
+}
