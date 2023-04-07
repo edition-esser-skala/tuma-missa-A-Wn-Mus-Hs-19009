@@ -284,3 +284,110 @@ GloriaTenoreLyrics = \lyricmode {
   a -- men,
   a -- men. %124 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr d4\fE^\tutti d8 d d4 h
+    h8. d16 e4 d8 e a,4
+    h h8 h16 h cis4 dis
+    h8 h c8. c16 c4 h8 h
+    c4. c8 d4 e %5
+    e4. c8 h a g!4
+    c h h r
+    R1
+    r2 \mvTr h~\pE^\solo
+    h4 a8 g16([ fis)] g4. g8 %10
+    fis4 r r2
+    r4 h e2~
+    e4 d8 d c2
+    h4 h2 a4~
+    a gis h4. cis8 %15
+    d4 d cis4. dis8
+    e4 e d4. cis16([ h)]
+    cis4. cis8 h d4 d8
+    cis4 cis cis8. cis16 cis8 cis
+    cis4 h8 h h8. h16 h8 h %20
+    ais4 ais c2
+    h4 r d!2
+    cis d4 h
+    h cis ais h
+    h ais h r %25
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit r8 \mvTr h\fE^\tutti g a h e16 e e8 d \noBreak
+    d8. c16 h4 a8 a h h
+    a a a a h h a gis %30
+    a a16 a a8 a a g h h16 h
+    h8 h16 h h8 h dis e e([ dis)]
+    e e h c d d e4~
+    e8 d cis8. cis16 d8. d16 d4
+    e8 d d4 d g,~ %35
+    g fis2 e4
+    d r r2
+    R1
+    r2 r8 d' e4
+    r8 a, d4 r8 g, c4~ %40
+    c8 h h([ a)] h4 r8 fis
+    g4 r8 h c e e([ dis)]
+    e4 r16 g[ fis e] fis4 r16 fis[ e d]
+    e4 r16 e[ d c] d4 r16 e[ d c]
+    d4 r16 d[ c h] c4 r16 c[ h a] %45
+    h4 r c8 d d4
+    d8 d\p e4 r8 c d4
+    r8 h c4~ c8 h a4
+    g fis\f g r\fermata \bar "|." %49 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Cre -- do in u -- num
+  Do -- mi -- num Je -- sum Chri --
+  stum, fi -- li -- um De -- i
+  u -- ni -- ge -- ni -- tum, et ex
+  Pa -- tre na -- tum %5
+  an -- te o -- mni -- a
+  sae -- cu -- la.
+
+  Et __
+  in -- car -- na -- tus %10
+  est
+  de Spi --
+  ri -- tu San --
+  cto, San -- _
+  cto ex Ma -- %15
+  ri -- a Vir -- gi --
+  ne, et ho -- mo
+  fa -- ctus est. Cru -- ci --
+  fi -- xus e -- ti -- am pro
+  no -- bis sub Pon -- ti -- o Pi -- %20
+  la -- to, pas --
+  sus, pas --
+  sus et se --
+  pul -- tus est, se --
+  pul -- tus est. %25
+
+  Cre -- do in Spi -- ri -- tum San -- ctum, %28
+  Do -- mi -- num et vi -- vi -- fi --
+  can -- tem, qui ex Pa -- tre Fi -- li -- %30
+  o -- que pro -- ce -- dit, qui cum Pa -- tre et
+  Fi -- li -- o si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur, qui lo -- cu -- tus est
+  per Pro -- phe -- tas, a -- %35
+  _ _
+  men,
+
+  a -- _
+  _ _ _ _ %40
+  men, a -- men, a --
+  _ _ _ men, a --
+  men, a -- _ _
+  _ _ _ _
+  _ _ _ _ %45
+  men, a -- men, a --
+  men, a -- _ _ _
+  _ _ men, a --
+  men, a -- men. %49 finis
+}

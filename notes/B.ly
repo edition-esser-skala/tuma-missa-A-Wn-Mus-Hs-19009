@@ -307,3 +307,92 @@ GloriaBassoLyrics = \lyricmode {
   men,
   a -- men. %124 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr g4\fE^\tutti g8 g d' d e4
+    h c g'8 e c([ d)]
+    g, g' g g fis4 h8 h
+    e,4 e d g
+    c, c8 c h4 e8 e %5
+    a,([ h)] c([ a)] h4 c
+    a h e, r
+    R1*10 %17
+    r2 \mvTr h''4.\pE^\solo h8
+    h4 h ais8. ais16 ais8 ais
+    h4 h,8 h' g8. g16 g8 g %20
+    fis4 fis a!2
+    g4 r h2
+    ais h4 g
+    e cis fis, fis
+    fis4. fis8 h4 r %25
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit r8 \mvTr g\fE^\tutti c16([ d)] e([ fis)] g8 e c d16 d \noBreak
+    g,8 g g'4 fis8 e16 d g4
+    d d h8. h16 e8 e %30
+    a, a d d g, g16 g g'8 g
+    dis dis e4 h8 c a h
+    e,4 e'8 d16([ c)] h4 e8 d
+    cis d a4 d h
+    c8 g d'4 g, r %35
+    R1
+    r2 r8 g' h4
+    r8 e, a4 r8 d, g4~
+    g8 fis e4 d r16 g[ fis e]
+    fis4 r16 fis[ e d] e4 r16 e[ d c] %40
+    d8 e c4 h r16 h[ cis dis]
+    e4 r16 e[ fis g] a8 c h4
+    e, e2 d!4~
+    d c h8 h' c4
+    r8 fis, h4 r8 e, a4 %45
+    r8 d, g16[ fis e d] c8 h16([ c)] d4
+    g, r16 c[\p d e] f4 r16 h,[ c d]
+    e4 r16 a,[ h c] d8 g, d'4
+    g, d'\f g, r\fermata \bar "|." %49 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Cre -- do in De -- um, Pa --
+  trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et
+  ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- um %5
+  et __ in -- vi -- si --
+  bi -- li -- um.
+
+  Cru -- ci -- %18
+  fi -- xus e -- ti -- am pro
+  no -- bis sub Pon -- ti -- o Pi -- %20
+  la -- to, pas --
+  sus, pas --
+  sus et se --
+  pul -- tus est, se --
+  pul -- tus est. %25
+
+  Et re -- sur -- re -- xit ter -- ti -- a %28
+  di -- e se -- cun -- dum Scri -- ptu --
+  ras, et i -- te -- rum ven -- %30
+  tu -- rus est cum glo -- ri -- a iu -- di --
+  ca -- re vi -- vos et mor -- tu --
+  os, cu -- ius re -- gni non
+  e -- rit fi -- nis, non
+  e -- rit fi -- nis, %35
+
+  a -- _
+  _ _ _ _
+  men, a -- men, a --
+  _ _ _ _ %40
+  _ men, a -- men, a --
+  _ _ _ men, a --
+  men, a -- _
+  _ men, a -- _
+  _ _ _ _ %45
+  _ _ _ men, a --
+  men, a -- _ _
+  _ _ _ men, a --
+  men, a -- men. %49 finis
+}

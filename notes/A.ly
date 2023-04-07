@@ -272,3 +272,92 @@ GloriaAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %124 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr g'4\fE^\tutti g8 g fis fis e8. e16
+    d8 g4 g8 g g e([ d)]
+    d4 g a g8 fis
+    g8. g16 g8 g f f d c16 d
+    e8 a, a'4 a( gis) %5
+    a8 gis16([ fis)] e8([ a)] fis4 e
+    fis2 e4 r
+    R1*10 %17
+    r2 \mvTr fis4.\pE^\solo fis8
+    e4 e e8. e16 e8 fis
+    d4 d8 fis fis8. fis16 e8 e %20
+    fis4 fis dis2
+    e4 r eis2
+    fis r
+    g4 e e d8 e
+    cis4. cis8 h4 r %25
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoEtResurrexit r8 \mvTr g'\fE^\tutti g g g4. fis8 \noBreak
+    g4 g8 g a g16([ fis)] g8 g
+    fis fis fis8. fis16 fis8 fis e8. e16 %30
+    e8 e d8. d16 d8 d d d16([ e)]
+    fis8 fis g g fis e fis fis
+    g h16([ a)] g4 g g8 g
+    g fis e8. e16 fis8 fis g g
+    g g g([ fis)] g4 r16 h[ a g] %35
+    a4 r16 a[ g fis] g4 r16 g[ fis e]
+    fis8 g4 fis16[ e] d8 r r16 fis[ e d]
+    e4 r16 e[ d cis] d4 r16 d[ cis h]
+    cis[ a] a'8 g4 fis g~
+    g fis2 e4 %40
+    fis8 e e4 dis r
+    R1
+    r8 h' c4 r8 fis, h4
+    r8 e, a4 g r16 g[ fis e]
+    fis4 r16 fis[ e d] e4 r16 e[ d c] %45
+    d4. e16[( fis)] g8 g g([ fis)]
+    g4 r16 e[\p f g] a4 r16 d,[ e f]
+    g4 r16 c,[ d e] a,8[ h16 c] d4
+    d d\f d r\fermata \bar "|." %49 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Cre -- do in u -- num Do -- mi --
+  num Je -- sum, Je -- sum Chri --
+  stum, qui pro -- pter nos
+  ho -- mi -- nes et pro -- pter no -- stram sa --
+  lu -- tem de -- scen -- %5
+  dit, de -- scen -- dit de
+  coe -- lis.
+
+  Cru -- ci -- %18
+  fi -- xus e -- ti -- am pro
+  no -- bis sub Pon -- ti -- o Pi -- %20
+  la -- to, pas --
+  sus, pas --
+  sus
+  et se -- pul -- tus, se --
+  pul -- tus est. %25
+
+  Cre -- do in u -- nam %28
+  san -- ctam ca -- tho -- li -- cam et
+  a -- po -- sto -- li -- cam Ec -- cle -- si -- %30
+  am, con -- fi -- te -- or u -- num ba --
+  ptis -- ma in re -- mis -- si -- o -- nem
+  pec -- ca -- to -- rum, et ex --
+  pe -- cto re -- sur -- re -- cti -- o -- nem
+  mor -- tu -- o -- rum, a -- %35
+  _ _ _ _
+  _ _ _ men, a --
+  _ _ _ _
+  _ men, a -- men, a --
+  _ _ %40
+  _ men, a -- men,
+
+  a -- _ _ _
+  _ _ men, a --
+  _ _ _ _ %45
+  _ men, a -- men, a --
+  men, a -- _ _
+  _ _ _ _
+  men, a -- men. %49 finis
+}

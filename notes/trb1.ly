@@ -157,3 +157,41 @@ GloriaTromboneI = {
     g2 g\fermata \bar "|." %124 finis
   }
 }
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoCredo
+    g'4\fE g8 g fis fis e8. e16
+    d8 g4 g8 g g e d
+    d4 g a g8 fis
+    g8. g16 g8 g f f d c16 d
+    e8 a, a'4 a gis %5
+    a8 gis16 fis e8 a fis4 e
+    fis2 e4 r
+    R1*19 \noBreak %26
+    R1\fermata \bar "||"
+    \tempoEtResurrexit r8 g\fE g g g4. fis8 \noBreak
+    g4 g8 g a g16 fis g8 g
+    fis fis fis8. fis16 fis8 fis e8. e16 %30
+    e8 e d8. d16 d8 d d d16 e
+    fis8 fis g g fis e fis fis
+    g h16 a g4 g g8 g
+    g fis e8. e16 fis8 fis g g
+    g g g fis g4 r16 h a g %35
+    a4 r16 a g fis g4 r16 g fis e
+    fis8 g4 fis16 e d8 r r16 fis e d
+    e4 r16 e d cis d4 r16 d cis h
+    cis a a'8 g4 fis g~
+    g fis2 e4 %40
+    fis8 e e4 dis r
+    R1
+    r8 h' c4 r8 fis, h4
+    r8 e, a4 g r16 g fis e
+    fis4 r16 fis e d e4 r16 e d c %45
+    d4. e16 fis g8 g g fis
+    g4 r r2
+    R1
+    r4 d\fE d r\fermata \bar "|." %49 finis
+  }
+}

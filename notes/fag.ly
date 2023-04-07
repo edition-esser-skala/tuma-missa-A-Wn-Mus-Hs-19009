@@ -127,3 +127,41 @@ GloriaFagotto = {
     c2 g\fermata \bar "|." %124 finis
   }
 }
+
+CredoFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoCredo
+    g4\fE r8 g d'4 r8 e
+    h'4 r8 c, g' e c d
+    g,4 r8 g' fis4 r8 h
+    e,4 r8 e d4 r8 g
+    c,4 r8 c h4 r8 e %5
+    a, h c a h4 c
+    a h e, r
+    R1*19 \noBreak %26
+    R1\fermata \bar "||"
+    \tempoEtResurrexit r8 g\fE c16 d e fis g8 e c d \noBreak
+    g,4 g' fis8 e16 d g8 g,
+    d'4. d8 h4 e %30
+    a, d g,! g'
+    dis e h8 c a h
+    e,4 e'8 d16 c h4 e8 d
+    cis d a' a, d c h4
+    c8 g d'4 g,r %35
+    R1
+    r2 r8 g' h4
+    r8 e, a4 r8 d, g4~
+    g8 fis e4 d r16 g fis e
+    fis4 r16 fis e d e4 r16 e d c %40
+    d8 e c4 h r16 h cis dis
+    e4 r16 e fis g a8 c h4
+    e, e2 d!4~
+    d c h8 h' c4
+    r8 fis, h4 r8 e, a4 %45
+    r8 d, g16 fis e d c8 h16 c d4
+    g, r-\critnote r2
+    R1
+    r4 d'\fE g, r\fermata \bar "|." %49 finis
+  }
+}

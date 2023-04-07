@@ -162,3 +162,59 @@ GloriaViolinoII = {
     c2 h\fermata \bar "|." %124 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCredo
+    r8 d'\fE g4 r8 fis e4
+    r8 d c4 r8 h a4
+    g8 h e4 r8 a dis,4
+    r8 g, c4 r8 f h,4
+    r8 e, a4 r8 d gis,4 %5
+    r8 e a2 g4
+    fis2 e4 r8 e\p
+    e4 dis e8 e h'4
+    r8 h, a'4 r8 h e4
+    r8 dis fis4 r8 h, e4 %10
+    r8 fis, h4 r8 h e4
+    r8 fis, h4 r8 g c4
+    r8 g, h'4 r8 a, c'4
+    r8 e, h'4 r8 e, c'4
+    r8 e, h'4 r8 e, e'4 %15
+    r8 a, d4 r8 e, a4
+    r8 h e4 r8 h d!4
+    r8 g ais,4 h r8 h
+    e4 r8 e cis4 r8 fis,
+    d'4 r8 fis h,4 r8 g' %20
+    cis,4 r8 cis fis4 r8 a,!
+    e'4 r8 h eis4 r8 d!
+    cis4 r8 fis, d'4 r8 e,
+    g'4 r8 g ais,4 r8 fis
+    cis'4 r8 ais h4 r8 h,\pp %25
+    g'4 r8 h, ais h4 ais8 \noBreak
+    h4 r r2\fermata \bar "||"
+    \tempoEtResurrexit r8 g'\fE g'4 r8 g a,4 \noBreak
+    r8 g d'4 r8 d h'4
+    r8 d, a'4 r8 fis e4 %30
+    r8 a fis4 r8 g, d'4
+    r8 h g'4 dis8 e fis,4
+    e r8 g d'4 r8 h
+    e d cis4 d r8 d
+    g,4 a h r16 h a g %35
+    a4 r16 a g fis g4 r16 g fis e
+    fis8 g4 fis16 e d8 r r16 fis e d
+    e4 r16 e d cis d4 r16 d cis h
+    cis a a'8 g4 fis g~
+    g fis2 e4 %40
+    fis8 e e4 dis r16 dis e fis
+    h,4 r16 g' a h e,4 r
+    r8 h' c4 r8 fis, h4
+    r8 e, a4 g r16 g fis e
+    fis4 r16 fis e d e4 r16 e d c %45
+    d4. e16 fis g8 g g fis
+    g4 r16 e\p f g a4 r16 d, e f
+    g4 r16 c, d e a,8 h16 c d4
+    d fis\f g r\fermata \bar "|." %49 finis
+  }
+}

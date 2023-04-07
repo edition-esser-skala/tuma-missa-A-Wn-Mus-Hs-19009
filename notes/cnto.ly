@@ -132,3 +132,41 @@ GloriaCornetto = {
     e'2 d\fermata \bar "|." %124 finis
   }
 }
+
+CredoCornetto = {
+  \relative c' {
+    \clef soprano
+    \key g \major \time 4/4 \tempoCredo
+    h'4.\fE h8 a a g4
+    fis8 h g c h16 a g8 g fis
+    g h e4 e8 e dis4
+    e c8. g16 a8 a g g
+    g g e e' d4 c8 h %5
+    c h a a dis4 e8 e
+    e4 dis e r
+    R1*19 \noBreak %26
+    R1\fermata \bar "||"
+    \tempoEtResurrexit r8 d\fE e d16 c h8 h a a \noBreak
+    g16 a h c d8 d d d d4
+    d2. c8 h %30
+    c4. c8 h2
+    a4 g r2
+    r r4 h
+    a2 a8 a d4
+    c8 h a8. a16 g8 d' e4 %35
+    r8 a, d4 r8 g, c4~
+    c8 h a16 h c8 c h d4~
+    d cis2 h4
+    a8 d4 c h16 a g h a g
+    a4 r16 a g fis g4 r16 g fis e %40
+    fis8 g r4 r8 fis h4
+    r8 h e4. e,16 fis fis4
+    e r r2
+    r r8 d' e4
+    r8 a, d4 r8 g, c4 %45
+    r8 fis, h c16 d e8 d16 e a,4
+    g8 r r4 r2
+    R1
+    r4 a\fE h r\fermata \bar "|." %49
+  }
+}

@@ -14,6 +14,8 @@ tempoKyrie = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Andante"
   tempoQuiTollis = \tempoMarkup "Largo"
   tempoQuoniam = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "[Allegro]"
+  tempoEtResurrexit = \tempoMarkup "[Allegro]"
 
 
 \include "notes/cnto.ly"
