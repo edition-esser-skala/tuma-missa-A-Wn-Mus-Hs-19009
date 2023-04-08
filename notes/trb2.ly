@@ -198,3 +198,16 @@ SanctusTromboneII = {
     h1\fermata \bar "|." %27 finis
   }
 }
+
+BenedictusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoBenedictus
+    R1*29 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoOsanna R1 \noBreak
+    r8 g\fE h c d4. d8
+    h g h8. c16 d8 d d d
+    d2 d\fermata \bar "|." %34 finis
+  }
+}

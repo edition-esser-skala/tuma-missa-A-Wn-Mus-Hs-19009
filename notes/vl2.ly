@@ -252,3 +252,43 @@ SanctusViolinoII = {
     d1\fermata \bar "|." %27 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    \tuplet 3/2 8 { g''16\fE a h } e,4. \tuplet 3/2 8 { a16 h c } e,4.
+    \tuplet 3/2 8 { g16 a h } e,4. \tuplet 3/2 8 { fis16 g a } h,4 a'8
+    g e, r g'~ g16 e-! fis8 r fis~
+    fis16 dis-! e8 r e~ e16 cis-! d8 r d~
+    d16 h-! c8 \tuplet 3/2 8 { c'16[ h a] g fis e } dis( cis h) e-! dis( cis h) a'-! %5
+    g( fis e) c'-! h( a g) e,-! \tuplet 3/2 8 { c'[ h a] g fis e } fis4\trill
+    e r8 \tuplet 3/2 8 { g'16\p a h } e,4. \tuplet 3/2 8 { a16 h c }
+    e,4. g8 fis4. \tuplet 3/2 8 { dis16[ e fis] }
+    h,8 \tuplet 3/2 8 { g16 a h } e,4 r8 \tuplet 3/2 8 { g'16 a h } h,4
+    r8 \tuplet 3/2 8 { g'16 a h } h,4 e2 %10
+    dis8 \tuplet 3/2 8 { dis,16 e fis } h,4 r2
+    r8 \tuplet 3/2 8 { c'16 d e } a,,4 r2
+    r8 \tuplet 3/2 8 { d'16 e fis } h,,4 r8 e~ e16 cis a8
+    r d~ d16 h g8 r \once \tieDashed cis~ cis16 ais fis'8
+    fis4 r r2 %15
+    \tuplet 3/2 8 { d'16\f e fis } h,4. \tuplet 3/2 8 { e16 fis g } h,4.
+    \tuplet 3/2 8 { d16 e fis } h,4. \tuplet 3/2 8 { cis16 d e } fis,4 e'8
+    d h, r4 r8 \tuplet 3/2 8 { d16 e fis } h,4
+    r2 r8 h''\p h, g'
+    e a a, fis' d g g, e' %20
+    c fis fis, dis' h4 r
+    R1*2
+    \tuplet 3/2 8 { g'16\f a h } e,4. \tuplet 3/2 8 { a16 h c } e,4.
+    \tuplet 3/2 8 { g16 a h } e,4. \tuplet 3/2 8 { fis16 g a } h,4 a'8 %25
+    g e, r g'~ g16 e-! fis8 r fis~
+    fis16 dis-! e8 r e~ e16 cis-! d8 r d~
+    d16 h-! c8 \tuplet 3/2 8 { c'16[ h a] g fis e } dis( cis h) e-! dis( cis h) a'-!
+    g( fis e) c'-! h( a g) e,-! \tuplet 3/2 8 { c'[ h a] g fis e } fis4\trill \noBreak
+    e r r2\fermata \bar "||" %30
+    \tempoOsanna r2 r8 d\fE e fis \noBreak
+    g4. g8 fis4. fis8
+    d4. e8 fis4 g~
+    g fis g2\fermata \bar "|." %34 finis
+  }
+}

@@ -417,14 +417,64 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %27 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*6 %6
+    \mvTr h'2\pE^\solo c
+    h4 e8 e e16[ dis fis e] dis[ c! h a]
+    g[ fis] e8 r h' \tuplet 3/2 8 { g16[ fis e } e'8] dis16[ c! h a]
+    \tuplet 3/2 8 { g16[ fis e } e'8] dis16[ c! h a] \tuplet 3/2 8 { g16[ fis e] } e' c a8. a16 %10
+    h4 r8 h d16[ c h a] gis[ f' e d]
+    c[ h] a8 r cis e16[ d cis h] ais[ g' fis e]
+    d[ cis] h8 r d d[ cis16 h] cis4~
+    cis8[ h16 ais] h4~ h8[ ais16 gis] ais4
+    h16[ fis gis ais] h[ cis d e] \tuplet 3/2 8 { fis[ e d] } g e cis8. cis16 %15
+    h4 r r2
+    R1
+    fis'4~ fis16[ e] d([ cis)] d([ cis)] h8 r h
+    e16[ h c h] fis'[ h, c h] g'[ fis] e8 r h
+    g'[ fis16 e] fis4~ fis8[ e16 d] e4~ %20
+    e dis8. dis16 e8 h e16[ d? c h]
+    c4~ c16[ h a g] fis[ h c h] e[ h fis' h,]
+    g'[ fis e dis] e4. fis16 cis dis8. dis16
+    e4 r r2
+    R1*5 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoOsanna r8 \mvTr g,\fE^\tuttiE h c d4. d8 \noBreak
+    h2 a8 fis g a
+    h4. h8 a a h h
+    a2 g\fermata \bar "|." %34 finis
+  }
+}
 
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- %7
+  di -- ctus, qui ve -- _
+  _ nit in no -- _
+  _ _ _ mi -- ne Do -- mi -- %10
+  ni, qui ve -- _
+  _ nit, qui ve -- _
+  _ nit in no -- _
+  _ _
+  _ _ _ mi -- ne Do -- mi -- %15
+  ni.
 
+  Be -- ne -- di -- ctus, qui
+  ve -- _ _ nit in
+  no -- _ _ %20
+  _ mi -- ne, in no --
+  _ _ _
+  _ _ mi -- ne Do -- mi --
+  ni.
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+  O -- san -- na in ex -- %31
+  cel -- sis, o -- san -- na
+  in ex -- cel -- sis, in ex --
+  cel -- sis. %34 finis
+}
 
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

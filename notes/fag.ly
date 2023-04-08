@@ -199,3 +199,16 @@ SanctusFagotto = {
     g1\fermata \bar "|." %27 finis
   }
 }
+
+BenedictusFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoBenedictus
+    R1*29 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoOsanna R1 \noBreak
+    r2 r8 d\fE e fis
+    g4. g8 fis d h g
+    d'2 g,\fermata \bar "|." %34 finis
+  }
+}

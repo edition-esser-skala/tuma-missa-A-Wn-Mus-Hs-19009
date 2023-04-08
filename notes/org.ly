@@ -548,3 +548,81 @@ SanctusBassFigures = \figuremode {
   r <6 _!> <6> \bc <[6 _]>8 r2
   r1 %27 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoBenedictus
+    r8 \mvTr e\fE-\solo g e r a c a
+    r g e g r dis h dis
+    e e' e, c' a d d, h'
+    g c c, a' fis h h, a'
+    gis a a,4 h r8 dis %5
+    e8. a16 g4 a8 c h h,
+    e e\pE g e r a c a
+    r e g e h'4 h,
+    e r8 dis e4 h'8 dis
+    e e, h' dis, e4 c %10
+    h h'8 a gis4 e
+    a c8 h ais4 fis
+    r8 h h, g' e a a, fis'
+    d g g, e' cis fis fis, e'
+    d4. cis8 h e fis fis, %15
+    h\fE h d h r e g e
+    r d h d r ais fis ais
+    h d'\pE ais fis h4 r8 a?
+    g e dis h e4 r8 e'
+    e, c' a d d, h' g c %20
+    c, a' fis h g4 e
+    r8 a a,4 h g'8 dis
+    e8. fis16 g8 e a fis h h,
+    e\fE e g e r a c a
+    r g e g r dis h dis %25
+    e e' e, c' a d d, h'
+    g c c, a' fis h h, a'
+    gis a a,4 h r8 dis
+    e8. a16 g4 a8 c h h, \noBreak
+    e4 r r2\fermata \bar "||" %30
+    \tempoOsanna \mvTr g,4\fE-\tutti \clef treble << { h''8 c d4. d8  \noBreak h } \\ { r4 r8 d, e fis g } >>
+    \clef "treble_8" g,[ h c] d \clef bass d,[ e fis]
+    g4. g8 fis d h g
+    d'2 g,\fermata \bar "|." %34 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r1
+  r8 \bo <[6 _]>2 \bc <[6 5]>4.
+  r2 <7>
+  q <7 [5\+]>4. <2>8
+  <6 5>4 <5>8 <6> <_+>4. <[6 5]>8 %5
+  r4 <6>2 <4>8 <_+>
+  r1
+  r2 <5 4>4 <\t _+>
+  r4. \bo <[6]> <_+>8 <6>
+  r4 <_+>8 \bc <[6]>4. <6>4 %10
+  <_+>4. <2>8 <[6 5!]>4 \bc <[7 _+]>
+  r4. <2+>8 \bo <[6 _+]>4 \bc <[5\+ _+]>
+  r2 <7>8 <_+>4 <[5\+]>8
+  <7\\>8 <3>4. <7>8 \bo <[5\+] _+>4 \bc <[\t] \t>8
+  <6>4. \bo <[6\\ _ _]> <5\+ _+>4 %15
+  r1
+  r8 <6>2 \bc <[6 5 _+]>4.
+  r4 <6 [_+]>8 <[5\+ _+]>2 <2>8
+  <6>4 \bo <[6]>8 \bc <[_+]> r2
+  r8 <6> <[6]>4. <6>8 <[6]>4 %20
+  r8 <6> <6\\> <_+> <6>2
+  r <_+>4 \bo <[6]>8 <6>
+  r8. <6\\>16 <6>4. \bc <[5\+]>8 <_+>4
+  r1
+  r8 \bo <[6 _]>2 \bc <[6 5]>4. %25
+  r2 <7>
+  q <7 [5\+]>4. <2>8
+  <6 5>4 <5>8 <6> <_+>4. \bo <[6 5]>8
+  r4 \bc <[6 _]>2 <4>8 <_+>
+  r1 %30
+  r
+  r
+  \bo <[5]>4. <6>8 q4 q
+  <4> \bc <[3]>2. %34 finis
+}

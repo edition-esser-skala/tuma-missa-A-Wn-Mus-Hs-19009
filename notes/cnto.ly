@@ -204,3 +204,16 @@ SanctusCornetto = {
     d1\fermata \bar "|." %27 finis
   }
 }
+
+BenedictusCornetto = {
+  \relative c' {
+    \clef soprano
+    \key g \major \time 4/4 \tempoBenedictus
+    R1*29 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoOsanna r8 g'\fE h c d4. d8 \noBreak
+    h2 a8 fis g a
+    h4. h8 a a h h
+    a2 g\fermata \bar "|." %34 finis
+  }
+}

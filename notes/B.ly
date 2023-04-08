@@ -460,3 +460,22 @@ SanctusBassoLyrics = \lyricmode {
   in __ ex -- cel --
   sis. %27 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*29 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoOsanna R1 \noBreak
+    r2 r8 \mvTr d\fE^\tuttiE e fis
+    g4. g8 fis d h g
+    d'2 g,\fermata \bar "|." %34 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  O -- san -- na %32
+  in ex -- cel -- sis, in ex --
+  cel -- sis. %34 finis
+}
