@@ -218,3 +218,37 @@ CredoViolinoII = {
     d fis\f g r\fermata \bar "|." %49 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoSanctus
+    \once \slurDashed h'4(\fE a) d
+    h r r
+    r8 g'4\p fis16( e) d8 c
+    h e\fE e4 dis
+    e r r %5
+    r8 e4\pE d16( c) h8 a
+    g c\fE c4 h
+    c r r
+    r8 c'4\pE \once \slurDashed h16( a) g8 f
+    e2.\f %10
+    e
+    e
+    dis8 r r4 r
+    r8 h'4\p a16( g) fis8 e
+    dis2.\f %15
+    e~
+    e2 dis4 \noBreak
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoPleni r8 d d4 r8 g a fis \noBreak
+    h d, d4 d cis %20
+    d2 fis,4 g8 a
+    h a16 g a8 h c a4 gis8
+    a4 r a8 g16 fis g8 fis16 e
+    fis4 e8 d d4 g8 f
+    e g4 fis8 g h c d %25
+    e( d) c( d) e2
+    d1\fermata \bar "|." %27 finis
+  }
+}

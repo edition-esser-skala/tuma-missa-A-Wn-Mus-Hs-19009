@@ -170,3 +170,37 @@ CredoCornetto = {
     r4 a\fE h r\fermata \bar "|." %49
   }
 }
+
+SanctusCornetto = {
+  \relative c' {
+    \clef soprano
+    \key g \major \time 3/4 \tempoSanctus
+    h'4\fE a a
+    h h r
+    R2.
+    e2 dis4
+    e e r %5
+    R2.
+    c2 h4
+    c c r
+    R2.
+    e2 e8 e %10
+    e2 e4
+    e2 e4
+    dis r r
+    R2.
+    dis2 dis4 %15
+    e2 e4
+    e2 dis4 \noBreak
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoPleni r8 d! d d d4 d \noBreak
+    d d8 d d4 cis %20
+    d2 d8 c16 h c8 h16 a
+    g4 r e'8 d16 c d8 c16 h
+    c8 d h cis d4. e8
+    a, a g a h4 c8 d
+    e d16 e a,4 h8 h c d %25
+    e d c d e2
+    d1\fermata \bar "|." %27 finis
+  }
+}

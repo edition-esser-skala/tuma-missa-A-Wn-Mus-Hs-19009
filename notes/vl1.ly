@@ -216,3 +216,37 @@ CredoViolinoI = {
     g4 a\f h r\fermata \bar "|." %49 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoSanctus
+    g''4(\fE a) fis
+    r8 g4\p fis16( e) d8 c
+    h e4 d16( c) h8 a
+    g4 r r
+    r8 e'4\p d16( c) h8 a %5
+    g c4 h16( a) g8 fis
+    e4 r r
+    r8 c''4\p \once \slurDashed h16( a) g8 f
+    e a4 \once \slurDashed g16( f) e8 d
+    e2.\f %10
+    e
+    e
+    dis8 h'4\p \once \slurDashed a16( g) fis8 e
+    dis g4 fis16( e) dis8 cis
+    dis2.\fE %15
+    \once \tieDashed e~
+    e2 dis4 \noBreak
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoPleni r8 g a fis h4 r \noBreak
+    r8 g a h g2 %20
+    fis d8 c16( h) c8 h16( a)
+    g4 r e'8 d16( c) d8 c16( h)
+    c8 d h cis d4. e8
+    a,4 g8 a h4 c8 d
+    e d16 e a,4 h8 h c d %25
+    e( d) c( d) e2
+    d1\fermata \bar "|." %27 finis
+  }
+}

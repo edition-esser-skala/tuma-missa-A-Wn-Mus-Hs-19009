@@ -165,3 +165,37 @@ CredoFagotto = {
     r4 d'\fE g, r\fermata \bar "|." %49 finis
   }
 }
+
+SanctusFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoSanctus
+    g'4\fE fis d
+    g g, r
+    R2.
+    g'4 fis h
+    e,2 r4 %5
+    R2.
+    e4 d g
+    c,2 r4
+    R2.
+    c %10
+    a
+    ais
+    h4 r r
+    R2.
+    h %15
+    e2 a,4
+    h2. \noBreak
+    e,\fermata \bar "||"
+    \time 4/4 \tempoPleni r8 g' fis d g4 fis8 d \noBreak
+    g4 fis8 g e2 %20
+    d d4 e8 fis
+    g f16 e f8 e16 d c4 h8 e
+    a g16 fis g8 fis16 e d4 h8 cis
+    d4 e8 fis g f e d
+    c h16 c d4 g,8 g' e h %25
+    c d e h c2
+    g1\fermata \bar "|." %27 finis
+  }
+}
