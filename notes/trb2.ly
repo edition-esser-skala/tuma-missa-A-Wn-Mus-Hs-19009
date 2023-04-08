@@ -211,3 +211,53 @@ BenedictusTromboneII = {
     d2 d\fermata \bar "|." %34 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 4/4 \tempoAgnus
+    R1*3
+    \mvTr fis8\pE-\solo e16 d e8 d16 cis d4 r
+    R1*2 %6
+    d8 cis16 h cis8 h16 ais h2~
+    h h
+    h8 a16 g a8 g16 fis \once \tieDashed g2~
+    g4 e fis2 %10
+    h h4 c
+    fis,2 e
+    h'8 a16 g a8 g16 fis g8 a h a16 h
+    c h a g fis4 e \mvTr e'8\fE-\tutti e
+    e4 e8 e e4 d %15
+    r2 r4 a
+    h h h a8 g \noBreak
+    a1\fermata \bar "||"
+    \tempoDona R1*4 %22
+    d4 d h4. e8
+    a,4. d8 g, a16 h c4
+    h8 h e4. a,8 d4~ %25
+    d8 g, c2 h4
+    a d d r8 h
+    d4 r8 d e d c d16 e
+    d4. d8 e fis e4
+    d r r2 %30
+    r8 a h cis d a d4~
+    d cis h e
+    d r r8 a h cis
+    d4. cis16 h a4 r
+    d d cis8 a h cis %35
+    d a d4. h8 cis4~
+    cis8 ais h2 ais4
+    h8 h cis dis e h e4
+    r8 a, h cis d a d4
+    r8 g, a h c4. d8 %40
+    d2 r8 fis, g a
+    h4 r r2
+    r d4 d
+    h4. e8 a,4. d8
+    h4 c d2 %45
+    d4 r r8 fis, g a
+    h8. c16 d4 d2
+    d4 r r8 g, a h
+    c2 h\fermata \bar "|." %49 finis
+  }
+}

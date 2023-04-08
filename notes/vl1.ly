@@ -290,3 +290,54 @@ BenedictusViolinoI = {
     a2 g\fermata \bar "|." %34 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoAgnus
+    h'2\p a~
+    a4 g g2
+    cis d
+    r fis,
+    gis4 ais ais2 %5
+    h2. ais4
+    h r r2
+    R1*6 %13
+    r2 r4 g'\fE
+    g2. fis4 %15
+    a,8\p g16 fis g8 fis16 e fis4 d'\f
+    d2. cis4 \noBreak
+    d1\fermata \bar "||"
+    \tempoDona d4 d h4. e8 \noBreak
+    a,4. d8 g, a16 h c4 %20
+    h8 h e4. a,8 d4~
+    d8 g, c2 h4
+    a4. a8 d4. h8
+    c4. a8 h a g4
+    g2 a4 r %25
+    R1
+    d4 d h4. e8
+    a,4. d8 g, a16 h c4~
+    c h cis8 d4 cis8
+    d a h cis d a d4~ %30
+    d8 cis d e fis2
+    e r
+    d4 d cis4. fis8
+    h,4. e8 cis a h cis
+    d a r4 r8 cis d e %35
+    fis d fis4 e4. d16 cis
+    d4. cis16 h cis2
+    h4 r r8 h a! h
+    cis4 r r8 a g a
+    h4 r r8 e16 d c8 h %40
+    a2 d4 d
+    h4. e8 a,4 d~
+    d8 g, c4. h8 a4
+    g8 g h c d a d4~
+    d8 g, c2 h4 %45
+    a8 a h c d4. c8
+    h4. a16 g a2
+    g4 r r8 h8 c d
+    e2 d\fermata \bar "|." %49 finis
+  }
+}

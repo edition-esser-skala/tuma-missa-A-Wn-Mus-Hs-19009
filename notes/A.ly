@@ -445,3 +445,84 @@ BenedictusAltoLyrics = \lyricmode {
   in ex -- cel -- sis, in ex --
   cel -- sis. %34 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*13 %13
+    r2 r4 \mvTr g'8\fE^\tutti g
+    g4 g8 g g4 fis %15
+    r2 r4 fis
+    g g g2 \noBreak
+    fis1\fermata \bar "||"
+    \tempoDona R1*2 %20
+    g4 g fis4. h8
+    e,4. a8 d,[ e16 fis] g4
+    fis8 fis a4. d,8 g4~
+    g8[ e] fis4 g8[ fis] e4
+    d r8 h' a4. g16[ fis] %25
+    g4. fis16[ e] fis8[ e] d4
+    a'2 g8 h g4
+    r8 a fis4 g8[ fis] e[ fis16 g]
+    a4 g a r
+    r2 r8 d,[ fis g] %30
+    a[ e] a4~ a8.[ g16] fis8[ h]
+    e,4. a8~ a[ d,] g4~
+    g8[ fis16 e] fis4 e r
+    r2 a4 a
+    fis4. h8 e,2 %35
+    fis8 a4 fis8 g4. fis16[ e]
+    fis4. e16[ d] g4 fis
+    fis8 dis[ e fis] g4 r
+    r8 cis,[ d e] fis4 r
+    r8 h,[ c d] e4 fis8[ g] %40
+    fis2 r
+    g4 g fis4. h8
+    e,4( a fis8) g g([ fis)]
+    g4 r8 g a4. g16[ fis]
+    g4. fis16[ e] fis8 a g4 %45
+    fis r r8 d[ e fis]
+    g[ d] g2 fis4
+    g8 d[ e f] g2~
+    g g\fermata \bar "|." %49 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus %14
+  De -- i, qui tol -- lis %15
+  pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na no -- bis %21
+  pa -- _ _ _
+  cem, pa -- _ _ _
+  _ _ _
+  cem, pa -- _ _ %25
+  _ _ _ cem,
+  pa -- cem, pa -- _
+  _ _ _ _
+  _ _ cem,
+  pa -- %30
+  _ _ _
+  _ _ _
+  _ cem,
+  do -- na
+  no -- bis pa -- %35
+  cem, pa -- _ _ _
+  _ _ _ _
+  cem, pa -- _
+  _ _
+  _ _ _ %40
+  cem,
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem, pa -- _ _
+  _ _ _ cem, pa -- %45
+  cem, pa --
+  _ _ _
+  cem, pa -- _
+  cem. %49 finis
+}

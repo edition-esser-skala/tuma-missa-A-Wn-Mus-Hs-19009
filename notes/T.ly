@@ -474,3 +474,95 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- sis, in ex -- cel -- sis, in ex --
   cel -- sis. %34 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr d4.\pE^\solo e8 c2
+    h4 d d cis
+    r8 e e g, g4 fis
+    r2 r4 fis'8 h,
+    h4 ais r e'8 e %5
+    d4. cis16([ h)] cis2\trill
+    h4 r r2
+    R1*6 %13
+    r2 r4 \mvTr e8\fE^\tutti e
+    e4 e8 e e4 d %15
+    r2 r4 a
+    h h h( a8[ g]) \noBreak
+    a1\fermata \bar "||"
+    \tempoDona R1*4 %22
+    d4 d h4. e8
+    a,4. d8 g,[ a16 h] c4
+    h8 h e4. a,8 d4~ %25
+    d8[ g,] c2 h4
+    a d d r8 h
+    d4 r8 d e[ d] c[ d16 e]
+    d4. d8 e fis e4
+    d r r2 %30
+    r8 a[ h cis] d[ a] d4~
+    d cis h e
+    d r r8 a[ h cis]
+    d4. cis16[ h] a4 r
+    d d cis8([ a)] h([ cis)] %35
+    d[ a] d4. h8 cis4~
+    cis8[ ais] h2 ais4
+    h8 h[ cis dis] e[ h] e4
+    r8 a,[ h cis] d[ a] d4
+    r8 g,[ a h] c4. d8 %40
+    d2 r8 fis,[( g a])
+    h4 r r2
+    r d4 d
+    h4. e8 a,4. d8
+    h4 c d2 %45
+    d4 r r8 fis,[( g a]
+    h8.[ c16]) d4 d2
+    d4 r r8 g,([ a h]
+    c2) h\fermata \bar "|." %49 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol -- lis
+  pec -- ca -- ta mun -- di:
+  Mi -- se --
+  re -- re, mi -- se -- %5
+  re -- re no --
+  bis.
+
+  A -- gnus %14
+  De -- i, qui tol -- lis %15
+  pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na no -- bis %23
+  pa -- _ _ _
+  cem, pa -- _ _ _ %25
+  _ _
+  _ _ cem, pa --
+  _ _ _ _
+  _ cem, pa -- cem, pa --
+  cem, %30
+  pa -- _ _
+  _ _ _
+  cem, pa --
+  _ _ cem,
+  do -- na no -- bis __ %35
+  pa -- _ _ _
+  _ _
+  cem, pa -- _ _
+  _ _ _
+  _ _ _ %40
+  cem, pa --
+  cem,
+  do -- na
+  no -- bis pa -- cem,
+  pa -- cem, pa -- %45
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem. %49 finis
+}

@@ -212,3 +212,42 @@ BenedictusFagotto = {
     d'2 g,\fermata \bar "|." %34 finis
   }
 }
+
+AgnusFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoAgnus
+    R1*13 %13
+    r2 r4 e\fE
+    cis2 d! %15
+    r r4 d
+    h g e'2 \noBreak
+    d1\fermata \bar "||"
+    \tempoDona R1*6 %24
+    g4 g fis4. h8 %25
+    e,4. a8 d, e16 fis g4~
+    g8 fis16 e fis4 g4. g8
+    fis4. h8 e, fis16 g a8 g
+    fis4 g4~ g8 fis16 g a4
+    d, r r2 %30
+    r r8 d fis g
+    a4 a,r2
+    r8 d fis g a e a4~
+    a8 d, g2 fis8 e
+    d4 r a' a %35
+    fis4. h8 e,4. a8
+    d,4. g8 e4 fis
+    h, r r8 e fis g
+    a a, a'4 r8 d, e fis
+    g g, g'4 r8 c,!16 h a8 g %40
+    d'2 r8 d e fis
+    g4 r r2
+    R1
+    g4 g fis4. h8
+    e,4. a8 d, e16 fis g4 %45
+    d1~
+    d
+    g,
+    c2 g\fermata \bar "|." %49 finis
+  }
+}
